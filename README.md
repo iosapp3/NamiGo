@@ -10,8 +10,9 @@ To run the example project, clone the repo, and run pod install from the Example
 Installation | Docs
 Through Cocoa pods
 
-pod ‘NamiGo’
-Manual
+pod 'NamiGo', :git => 'https://github.com/iosapp3/NamiGo.git'
+
+# Manual
 Drag n Drop the ‘Framework’ folder into your project.
 
 Note: If you will face any error , you can simply go to Build Settings set Enable Bitcode to NO
