@@ -19,14 +19,20 @@ Note: If you will face any error , you can simply go to Build Settings set Enabl
 How to Use
 View controller where you want to set payment import OminiPay library like below:
 
-import NamiGo
+import NamiGo  
+
 Create NamiGo Object
+
 let obj = NamiGo.initWith(key: “Your NamiGo's Account key”)
+
 Set Delegate to view controller
+
 obj.delegate = self
 
 Call CheckoutMethod
+
  obj.checkOutRequestWith(param)
+ 
 Note: param is the variable in which you set your card details:
 
 # Parameter Sample Formate
