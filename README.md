@@ -30,6 +30,7 @@ Call CheckoutMethod
 Note: param is the variable in which you set your card details:
 
 Parameter Sample Formate
+
 let param = [
     "name" : "John",
     "email" : "johndoe@mailinator.com",
@@ -42,9 +43,11 @@ let param = [
     "cvv" : "123",
     "card_type" : "C"
 ]
+
 Add Delegate methods to ViewControlelr
  func paymentDoneWith(success: Bool, data: [String : Any]?)
 Example
+
 extension ViewController : NamiGoResponseDelegate {
     func paymentDoneWith(success: Bool, data: [String : Any]?) {
         if success {
