@@ -16,9 +16,10 @@ pod 'NamiGo', :git => 'https://github.com/iosapp3/NamiGo.git'
 Drag n Drop the ‘Framework’ folder into your project.
 
 Note: If you will face any error , you can simply go to Build Settings set Enable Bitcode to NO
+![Screenshot 2023-04-21 at 5 42 54 PM](https://user-images.githubusercontent.com/75315763/234268769-03fcc396-2d2f-4c20-8b38-d3fa19a24924.png)
 
 How to Use
-View controller where you want to set payment import OminiPay library like below:
+View controller where you want to set payment import NamiGo library like below:
 
 import NamiGo  
 
